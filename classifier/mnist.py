@@ -126,7 +126,7 @@ def train_classifier(train_data_loader: DataLoader, n_epochs: int, device):
 
 def get_classifier():
     classifier = CClassifier((1, 32, 32))
-    classifier = torch.load('classifier/mnist_classifier.pt')
+    classifier.load_state_dict(torch.load('classifier/mnist.pt'))
     classifier.eval()
 
     classifier = classifier.to('cuda')
