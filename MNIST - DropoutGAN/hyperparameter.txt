@@ -1,0 +1,4 @@
+Number of discriminators: 5
+Dropout rate discriminators: 0.5
+Generator: lr: 0.0002 betas: (0.5, 0.999)
+Discriminator: lr: 0.002, betas: (0.5, 0.999)
