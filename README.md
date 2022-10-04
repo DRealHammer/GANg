@@ -12,4 +12,4 @@ Here we provide the classifiers for the MNIST and CIFAR10 dataset: https://heibo
 
 The vgg model is from https://github.com/huyvnphan/PyTorch_CIFAR10
 
-The models should be located in a folder called `classifier` next the scripts for loading them.
+The models should be located in the folder called `classifier` next the scripts for loading them.
